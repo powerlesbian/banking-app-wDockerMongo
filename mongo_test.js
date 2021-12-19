@@ -11,7 +11,7 @@ MongoClient.connect(url, {useUnifiedTopology: true}, function(err, client) {
 
     // new user
     var name = 'user' + Math.floor(Math.random()*10000);
-    var email = name + '@mit.edu';
+    var email = name + '@digliteracy.org';
 
     // insert into customer table
     var collection = db.collection('customers');
